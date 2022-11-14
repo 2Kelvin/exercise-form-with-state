@@ -27,7 +27,7 @@ function Form() {
   return React.createElement(
     "form",
     { className: "myForm", onSubmit: function onSubmit(e) {
-        return e.preventDefault;
+        return e.preventDefault();
       } },
     React.createElement(
       "p",

@@ -16,7 +16,7 @@ function Form() {
   }
 
   return (
-    <form className="myForm" onSubmit={(e) => e.preventDefault}>
+    <form className="myForm" onSubmit={(e) => e.preventDefault()}>
       <p className="displayUser">Hi, {firstName + " " + lastName}</p>
       <input
         type="text"
