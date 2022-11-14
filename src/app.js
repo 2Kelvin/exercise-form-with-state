@@ -21,11 +21,13 @@ function Form() {
       <input
         type="text"
         placeholder="First name"
+        value={firstName}
         onChange={handleFirstNameOnchange}
       />
       <input
         type="text"
         placeholder="Last name"
+        value={lastName}
         onChange={handleLastNameOnchange}
       />
       <button onClick={handleResetFieldsClick}>Reset Fields</button>

@@ -38,11 +38,13 @@ function Form() {
     React.createElement("input", {
       type: "text",
       placeholder: "First name",
+      value: firstName,
       onChange: handleFirstNameOnchange
     }),
     React.createElement("input", {
       type: "text",
       placeholder: "Last name",
+      value: lastName,
       onChange: handleLastNameOnchange
     }),
     React.createElement(
